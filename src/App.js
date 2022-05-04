@@ -37,7 +37,7 @@ function App() {
       <motion.div layout className="popular-movies">
         {filtered.map((movie) => {
           return (
-            <AnimatePresence>
+            <AnimatePresence key={movie.id}>
               <Movie key={movie.id} movie={movie} />
             </AnimatePresence>
           )
