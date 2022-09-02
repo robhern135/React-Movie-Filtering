@@ -1,2 +1,0 @@
-# React Movie Filtering
- 
